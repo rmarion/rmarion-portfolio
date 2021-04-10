@@ -1,0 +1,14 @@
+.HeaderBar{
+    color: whitesmoke
+}
+.HeaderBar:hover{
+    color: lightgray
+}
+
+.HeaderLink{
+    color: whitesmoke
+}
+
+.HeaderLink:hover{
+    color:lightgray 
+}

@@ -1,0 +1,9 @@
+.UnityFrame {
+  border: none;
+  width: 100%;
+  background-color: darkgray;
+}
+
+.UnityContainer{
+  height: 100%;
+}
