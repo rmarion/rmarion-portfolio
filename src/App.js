@@ -4,7 +4,6 @@ import HeaderBar from "./HeaderBar/HeaderBar";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import EditorWithoutTrees from "./TerrainEditor/EditorWithoutTrees";
-import EditorWithTrees from "./TerrainEditor/EditorWithTrees";
 import HomePage from "./HomePage/HomePage";
 import ContactPage from "./ContactPage/ContactPage";
 import VRExperimentsPage from "./VRExperiments/VRExperimentsPage";
@@ -30,9 +29,6 @@ function App() {
             </Route>
             <Route path="/terrain-editor">
               <EditorWithoutTrees />
-            </Route>
-            <Route path="/terrain-editor-trees">
-              <EditorWithTrees />
             </Route>
             <Route path="/vr-experiments">
               <VRExperimentsPage />

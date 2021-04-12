@@ -17,9 +17,6 @@ function HeaderBar() {
           <NavDropdown.Item href="terrain-editor">
             Terrain Editor
           </NavDropdown.Item>
-          <NavDropdown.Item href="terrain-editor-trees">
-            Terrain Editor (Experimental)
-          </NavDropdown.Item>
           <NavDropdown.Item href="vr-experiments">
             VR Experiments
           </NavDropdown.Item>
