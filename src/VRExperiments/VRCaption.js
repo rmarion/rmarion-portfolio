@@ -15,5 +15,5 @@ export default VRCaption;
 
 VRCaption.propTypes = {
   header: PropTypes.string.isRequired,
-  subtext: PropTypes.string.isRequired,
+  subtext: PropTypes.string,
 };

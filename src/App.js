@@ -3,10 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import HeaderBar from "./HeaderBar/HeaderBar";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import UnityFrame from "./UnityFrame/UnityFrame";
+import EditorWithoutTrees from "./TerrainEditor/EditorWithoutTrees";
+import EditorWithTrees from "./TerrainEditor/EditorWithTrees";
 import HomePage from "./HomePage/HomePage";
 import ContactPage from "./ContactPage/ContactPage";
-import VRExperiments from "./VRExperiments/VRExperiments";
+import VRExperimentsPage from "./VRExperiments/VRExperimentsPage";
 import AboutPage from "./AboutPage/AboutPage";
 
 function App() {
@@ -28,10 +29,13 @@ function App() {
               <ContactPage />
             </Route>
             <Route path="/terrain-editor">
-              <UnityFrame />
+              <EditorWithoutTrees />
+            </Route>
+            <Route path="/terrain-editor-trees">
+              <EditorWithTrees />
             </Route>
             <Route path="/vr-experiments">
-              <VRExperiments />
+              <VRExperimentsPage />
             </Route>
             <Route path="/">
               <HomePage />

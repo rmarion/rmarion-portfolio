@@ -7,7 +7,7 @@ function HeaderBar() {
   return (
     <Navbar bg="dark" variant="dark">
       <Navbar.Brand href="home" className="HeaderBar">
-        <Logo  />
+        <Logo />
         RMarion Portfolio
       </Navbar.Brand>
       <Nav className="mr-auto">
@@ -16,6 +16,9 @@ function HeaderBar() {
         <NavDropdown title="Projects" id="projects-dropdown">
           <NavDropdown.Item href="terrain-editor">
             Terrain Editor
+          </NavDropdown.Item>
+          <NavDropdown.Item href="terrain-editor-trees">
+            Terrain Editor (Experimental)
           </NavDropdown.Item>
           <NavDropdown.Item href="vr-experiments">
             VR Experiments
